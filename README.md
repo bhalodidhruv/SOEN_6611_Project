@@ -1,6 +1,5 @@
 # SOEN_6611_Project (Analysis on Hadoop using Cohesion, Coupling, Cyclomatic and Maintainability metrics)
 
-Name	                  Student ID
 Dhruv Bhalodi	          40046441
 Jasmine Kalra	          40054401
 Debanjana Bhattacharyya	40050402
