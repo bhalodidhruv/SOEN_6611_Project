@@ -17,6 +17,7 @@ Hypothesis 1:
 
 •	Null Hypothesis 
 Cohesion metric has a strong co relation to the number of quality issues
+
 •	Alternate Hypothesis
 Cohesion metric doesn’t have a strong co relation to the number of quality issues
 
@@ -24,6 +25,7 @@ Hypothesis 2:
 
 •	Null Hypothesis 
 Coupling metric has a strong co relation to the number of quality issues
+
 •	Alternate Hypothesis
 Coupling metric doesn’t have a strong co relation to the number of quality issues
 
@@ -31,6 +33,7 @@ Hypothesis 3:
 
 •	Null Hypothesis 
 Number of quality issues has a strong co relation to the security of the project
+
 •	Alternate Hypothesis
 Number of quality issues doesn’t have a strong co relation to the security of the project
 
@@ -38,6 +41,7 @@ Hypothesis 4:
 
 •	Null Hypothesis 
 Cyclomatic complexity has a strong co relation to the number of quality issues
+
 •	Alternate Hypothesis
 Cyclomatic complexity doesn’t have a strong co relation to the number of quality issues
 
@@ -45,6 +49,7 @@ Hypothesis 5:
 
 •	Null Hypothesis 
 Cyclomatic complexity has a strong co relation to the maintainability of the project
+
 •	Alternate Hypothesis
 Cyclomatic complexity doesn’t have a strong co relation to the maintainability of the project
 
