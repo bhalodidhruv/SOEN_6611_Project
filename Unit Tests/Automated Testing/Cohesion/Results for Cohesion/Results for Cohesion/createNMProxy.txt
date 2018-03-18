@@ -1,0 +1,18 @@
+ public static <T> T createNMProxy(final Configuration conf,
+      final Class<T> protocol, final UserGroupInformation ugi,
+      final YarnRPC rpc, final InetSocketAddress serverAddress) {
+
+    RetryPolicy retryPolicy =
+        createRetryPolicy(conf,
+          YarnConfiguration.CLIENT_NM_CONNECT_MAX_WAIT_MS,
+          YarnConfiguration.DEFAULT_CLIENT_NM_CONNECT_MAX_WAIT_MS,
+          YarnConfiguration.CLIENT_NM_CONNECT_RETRY_INTERVAL_MS,
+          YarnConfiguration.DEFAULT_CLIENT_NM_CONNECT_RETRY_INTERVAL_MS);
+    Configuration confClone = new Configuration(conf);
+    confClone.setInt(
+        CommonConfigurationKeysPublic.IPC_CLIENT_CONNECT_MAX_RETRIES_KEY, 0);
+    confClone.setInt(CommonConfigurationKeysPublic.
+            IPC_CLIENT_CONNECT_MAX_RETRIES_ON_SOCKET_TIMEOUTS_KEY, 0);
+    return createRetriableProxy(confClone, protocol, ugi, rpc, serverAddress,
+      retryPolicy);
+  }
