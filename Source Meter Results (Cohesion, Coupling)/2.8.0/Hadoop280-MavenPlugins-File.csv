@@ -1,0 +1,5 @@
+"ID","Name","LongName","Parent","McCC","CLOC","PDA","PUA","LLOC","LOC"
+"L127","ProtocMojo.java","C:/Users/Jasmine/Desktop/Software_Measurement/Hadoop-Releases/hadoop-rel-release-2.8.0/hadoop-maven-plugins/src/main/java/org/apache/hadoop/maven/plugin/protoc/ProtocMojo.java","L126","34","0","1","4","215","272"
+"L346","Exec.java","C:/Users/Jasmine/Desktop/Software_Measurement/Hadoop-Releases/hadoop-rel-release-2.8.0/hadoop-maven-plugins/src/main/java/org/apache/hadoop/maven/plugin/util/Exec.java","L345","14","0","9","1","105","184"
+"L347","FileSetUtils.java","C:/Users/Jasmine/Desktop/Software_Measurement/Hadoop-Releases/hadoop-rel-release-2.8.0/hadoop-maven-plugins/src/main/java/org/apache/hadoop/maven/plugin/util/FileSetUtils.java","L345","2","0","2","0","23","60"
+"L474","VersionInfoMojo.java","C:/Users/Jasmine/Desktop/Software_Measurement/Hadoop-Releases/hadoop-rel-release-2.8.0/hadoop-maven-plugins/src/main/java/org/apache/hadoop/maven/plugin/versioninfo/VersionInfoMojo.java","L473","32","0","1","1","230","343"
