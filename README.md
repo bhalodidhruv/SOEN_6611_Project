@@ -56,7 +56,6 @@ Cyclomatic complexity doesn’t have a strong co relation to the maintainability
 Tools used are - 
 1) SonarQube
 2) SourceMeter
-3) JDeodorant 
 
 Project - Apache Hadoop
 
