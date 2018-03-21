@@ -60,9 +60,7 @@ Tools used are -
 
 Project - Apache Hadoop
 
-Versions (11) - 
-
-3.0.0 - Dec 18, 2017
+Versions (10) - 
 
 2.9.0 - Nov 17, 2017
 
