@@ -7,7 +7,7 @@ Jasmine Kalra	          40054401
 Debanjana Bhattacharyya	40050402
 Sneha Sarkar	          40070778
 Goutham Gopal Raje Urs	40054007
-Sharan Chinta	          40056518
+Sharan Chitta	          40056518
 Navjot Kaur Bhamrah	    40050459
 Dhruv Gusain	          40048029
 Suraj Reddy Yellu	      40057753
